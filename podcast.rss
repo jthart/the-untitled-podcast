@@ -39,7 +39,7 @@ layout: null
             <itunes:category text="Mental Health" />
         </itunes:category>
         <itunes:type>episodic</itunes:type>
-        <itunes:explicit>yes</itunes:explicit>
+        <itunes:explicit>no</itunes:explicit>
         {% for post in site.posts %}
             <item>
                 <title>{{ post.title | xml_escape }}</title>

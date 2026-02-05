@@ -32,10 +32,10 @@ layout: null
             <itunes:email>{{ site.email }}</itunes:email>
         </itunes:owner>
         <itunes:image href="{{ site.logo  | prepend: site.baseurl | prepend: site.url }}" />
-        <itunes:category text="Society & Culture">
+        <itunes:category text="Society &amp; Culture">
             <itunes:category text="Personal Journals" />
         </itunes:category>
-        <itunes:category text="Health & Fitness">
+        <itunes:category text="Health &amp; Fitness">
             <itunes:category text="Mental Health" />
         </itunes:category>
         <itunes:type>episodic</itunes:type>
